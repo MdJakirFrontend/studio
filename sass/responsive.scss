@@ -1,0 +1,593 @@
+@media (min-width: 575px) {
+   .pt-100 {
+      padding-top: 70px;
+   }
+   .bild-sectionPadding {
+      padding: 70px 0;
+   }
+   .bildstdio-hero {
+      .screenImg-wrapper {
+         .hero-rightImg {
+            &.slideInRight {
+               display: block;
+            }
+         }
+         .hero-leftImg {
+            right: 0;
+         }
+      }
+   }
+}
+
+@media (min-width: 768px) {
+   .mb-100 {
+      margin-bottom: 50px;
+   }
+   .bild-sectionPadding {
+      padding: 80px 0;
+   }
+   .pt-100 {
+      padding-top: 100px;
+   }
+   .startFiniss-wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 30px;
+      counter-reset: integerIncree;
+      .first-grid {
+         grid-column: 1 / 3;
+      }
+   }
+   .buildstudio-sectitle {
+      h2 {
+         font-size: 40px;
+         margin-bottom: 25px;
+         br {
+            display: block;
+         }
+      }
+      p {
+         font-size: 24px;
+         sup {
+            font-size: 20px;
+         }
+      }
+   }
+   .bildstdio-info {
+      p {
+         font-size: 21px;
+         line-height: 33px;
+         margin-bottom: 35px;
+      }
+   }
+   .bildstdio-hero {
+      .screenImg-wrapper {
+         margin-top: 120px;
+      }
+   }
+   .buildstudio-workProcess {
+      .process-wrpImg {
+         margin-top: 100px;
+      }
+      .process-wrpImg {
+         position: relative;
+         img {
+            width: 100%;
+         }
+      }
+   }
+   .buildstudio-business-strategy {
+      .strategy-headingInfo {
+         margin-bottom: 100px;
+      }
+      .buildstudio-sectitle {
+         h2 {
+            font-size: 58px;
+            line-height: 72px;
+            font-weight: 400;
+         }
+      }
+   }
+   .item-info {
+      margin-bottom: 120px;
+      &-img {
+         margin-bottom: 60px;
+         img {
+            width: auto;
+         }
+         &::after {
+            font-size: 150px;
+         }
+      }
+      h3 {
+         font-size: 20px;
+         color: #138267;
+      }
+   }
+   .ulElements-section {
+      .uiElement-imgWrapper {
+         margin-top: -50px;
+      }
+   }
+   .features-sliderWrapper {
+      .single-features {
+         margin-bottom: 0;
+      }
+      .slide-info {
+         h2 {
+            font-size: 58px;
+            line-height: 72px;
+            margin-bottom: 25px;
+            br {
+               display: block;
+            }
+         }
+         p {
+            font-size: 21px;
+         }
+      }
+   }
+   .buildstudio-funfact {
+      .counter-info {
+         h2 {
+            font-size: 38px;
+            line-height: 48px;
+         }
+         h3 {
+            font-size: 20px;
+            line-height: 30px;
+         }
+         &-icon {
+            margin-bottom: 20px;
+         }
+      }
+   }
+   .counter-info {
+      margin-bottom: 0;
+
+      h2 {
+         margin-bottom: 20px;
+      }
+   }
+
+   .buildstudio-team {
+      .team-info-title {
+         h3 {
+            font-size: 35px;
+         }
+         p {
+            font-size: 20px;
+         }
+      }
+   }
+   .video-section {
+      padding: 80px 0;
+   }
+   .startFiniss-wrapper {
+      .first-grid {
+         grid-column: 1 / 3;
+      }
+   }
+   .buildstudio-featuresSection {
+      padding-top: 80px;
+      .buildstudio-sectitle {
+         p {
+            font-size: 21px;
+            display: block;
+         }
+      }
+   }
+   .features-mokup-wrappper {
+      padding: 80px 0;
+   }
+   .features-slider {
+      padding: 100px 0;
+   }
+   .buildstudio-business-strategy {
+      padding: 80px 0;
+   }
+   .buildstudio-team {
+      .buildstudio-team-details {
+         .buildstudio-team-info {
+            width: 48%;
+         }
+      }
+   }
+}
+
+@media (min-width: 992px) {
+   .bildstudio-sidebar {
+      transform: translateX(170px) rotate(-90deg);
+      display: block;
+      ul {
+         li {
+            padding: 0 3px;
+            a {
+               font-size: 14px;
+            }
+         }
+      }
+   }
+   .features-sliderWrapper {
+      .slide-info {
+         text-align: left;
+         margin-left: 50px;
+      }
+      .single-features {
+         margin-bottom: 0;
+      }
+      .single-features-info {
+         text-align: center;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+      }
+      .owl-nav button.owl-prev {
+         left: 50px;
+      }
+      .owl-nav button.owl-next {
+         right: 50px;
+      }
+   }
+   .bild-sectionPadding {
+      padding: 90px 0;
+   }
+   .bildstdio-hero {
+      .bildSec-title {
+         text-align: left;
+      }
+   }
+   .mb-100 {
+      margin-bottom: 60px;
+   }
+   .buildstudio-sectitle {
+      h2 {
+         font-size: 50px;
+      }
+      p {
+         font-size: 26px;
+         sup {
+            font-size: 16px;
+         }
+      }
+   }
+   /* buildstio technologis */
+   .technologies-info {
+      ul {
+         li {
+            font-size: 18px;
+         }
+      }
+   }
+   .buildstudio-funfact {
+      .buildstudio-sectitle {
+         margin-bottom: 100px;
+      }
+   }
+   .buildstudio-team {
+      .buildstudio-team-details {
+         ul {
+            li {
+               font-size: 18px;
+               line-height: 28px;
+            }
+         }
+      }
+   }
+   .video-section {
+      padding: 100px 0;
+   }
+   .video-wrapper {
+      margin-bottom: 0;
+   }
+   .buildstudio-team {
+      padding: 80px 0;
+      .buildstudio-sectitle {
+         text-align: left;
+      }
+   }
+   .buildstudio-business-strategy {
+      .barShape {
+         height: 400px;
+         .bar-one {
+            left: 12%;
+         }
+         .bar-two {
+            left: 0;
+            top: 105%;
+         }
+         .bar-three,
+         .bar-four {
+            display: block;
+         }
+         .bar-four {
+            right: 19%;
+            top: 98%;
+         }
+         .bar-five {
+            right: 0;
+            top: 40%;
+         }
+      }
+   }
+   .features-mokup-wrappper {
+      padding: 100px 0;
+   }
+   .features-slider {
+      padding: 150px 0;
+   }
+   .buildstudio-technologies {
+      .technologies-img {
+         width: 31%;
+         position: relative;
+      }
+      .technologies-info {
+         width: 31%;
+      }
+      
+   }
+}
+
+@media (min-width: 1200px) {
+   .startFiniss-wrapper {
+      grid-template-columns: repeat(5, 1fr);
+   }
+   .bild-sectionPadding {
+      padding: 100px 0;
+   }
+   .buildstudio-workProcess {
+      padding: 100px 0;
+   }
+   .buildstudio-team {
+      padding: 120px 0;
+      .buildstudio-sectitle {
+         margin-bottom: 0;
+      }
+   }
+   .bildstudio-sidebar {
+      transform: translateX(220px) rotate(-90deg);
+      ul {
+         li {
+            padding: 0 10px;
+            a {
+               font-size: 14px;
+            }
+         }
+      }
+   }
+   .buildstudio-sectitle {
+      h2 {
+         font-size: 70px;
+         margin-bottom: 15px;
+      }
+      p {
+         font-size: 30px;
+         sup {
+            font-size: 20px;
+         }
+      }
+   }
+   .mb-100 {
+      margin-bottom: 100px;
+   }
+   .buildstudio-funfact {
+      padding: 150px 0 200px;
+      .counter-info {
+         margin-bottom: 0;
+         h2 {
+            font-size: 58px;
+            line-height: 72px;
+         }
+         h3 {
+            font-size: 24px;
+            line-height: 33px;
+         }
+      }
+      &-icon {
+         margin-bottom: 30px;
+      }
+      .buildstudio-sectitle {
+         margin-bottom: 120px;
+      }
+   }
+   .counter-info {
+      h2 {
+         margin-bottom: 30px;
+      }
+   }
+
+   .buildstudio-team {
+      .team-info-title {
+         h3 {
+            font-size: 66px;
+         }
+         p {
+            font-size: 26px;
+         }
+      }
+      .buildstudio-team-details {
+         ul {
+            li {
+               font-size: 16px;
+               line-height: 33px;
+            }
+         }
+      }
+   }
+   .technologies-info {
+      ul {
+         li {
+            font-size: 21px;
+         }
+      }
+   }
+   .video-section {
+      padding: 150px 0;
+   }
+   .buildstudio-workProcess {
+      background-position: center calc(100% + 200px);
+   }
+   .buildstudio-business-strategy {
+      .strategy-headingInfo {
+         .buildstudio-sectitle {
+            padding-left: 60px;
+            padding-right: 60px;
+         }
+      }
+   }
+   .buildstudio-technologies {
+      padding: 120px 0;
+      .technologies-img {
+         position: relative;
+      }
+   }
+   .buildstudio-featuresSection {
+      padding-top: 100px;
+   }
+   .features-mokup-wrappper {
+      padding: 200px 0;
+   }
+   .features-slider {
+      padding: 200px 0;
+   }
+   .buildstudio-business-strategy {
+      padding: 100px 0;
+   }
+   .features-sliderWrapper {
+      .owl-nav button.owl-prev {
+         left: 150px;
+      }
+      .owl-nav button.owl-next {
+         right: 150px;
+      }
+   }
+}
+
+@media (min-width: 1400px) {
+   .buildstudio-team {
+      .buildstudio-team-details {
+         ul li {
+            font-size: 20px;
+         }
+      }
+   }
+   .buildstudio-workProcess {
+      padding: 180px 0 100px;
+   }
+   .buildstudio-business-strategy {
+      padding: 150px 0;
+   }
+   .buildstudio-sectitle {
+      h2 {
+         font-size: 80px;
+      }
+   }
+   .features-slider {
+      padding: 250px 0;
+   }
+   .container {
+      max-width: 1400px;
+   }
+   .buildstudio-team {
+      padding: 200px 0;
+   }
+   .bildstudio-sidebar {
+      transform: translateX(260px) rotate(-90deg);
+      ul {
+         li {
+            padding: 0 25px;
+            padding: 0 15px;
+            a {
+               font-size: 17px;
+            }
+         }
+      }
+   }
+   .buildstudio-startFiniss-section {
+      padding: 180px 0 50px;
+   }
+   .buildstudio-technologies {
+      padding: 130px 0;
+   }
+   .buildstudio-featuresSection {
+      padding-top: 130px;
+      .buildstudio-sectitle {
+         font-size: 21px;
+      }
+   }
+   .features-sliderWrapper {
+      .owl-nav button.owl-prev {
+         left: 250px;
+      }
+      .owl-nav button.owl-next {
+         right: 250px;
+      }
+   }
+}
+
+@media (max-width: 1200px) {
+   .features-slider {
+      .single-features {
+         padding: 0;
+         img {
+            height: auto;
+         }
+      }
+      .owl-item.center {
+         .single-features {
+            padding: 0;
+            img {
+               height: auto;
+            }
+         }
+      }
+   }
+   .ulElements-section {
+      background-position: calc(80% + 0px) top;
+   }
+}
+@media (max-width: 992px) {
+   .bildstudio-header {
+      ul.navbar-nav {
+         padding: 20px 0 !important;
+         margin-bottom: 0 !important;
+         li {
+            margin-bottom: 5px;
+            a {
+               padding: 0 !important;
+            }
+            &:last-child {
+               margin-bottom: 0;
+            }
+         }
+      }
+   }
+   .features-sliderWrapper {
+      .owl-item.center .single-features {
+         img {
+            width: auto !important;
+            margin: auto;
+         }
+      }
+   }
+   .features-sliderWrapper {
+      margin-bottom: 50px;
+   }
+   .features-slider {
+      padding: 60px 15px;
+   }
+   .technologies-img {
+      margin: 30px 0;
+   }
+   .ulElements-section {
+      background-position: calc(60% + 0px) top;
+   }
+}
+
+@media (max-width: 768px) {
+   .ulElements-section {
+      .uiElement-imgWrapper {
+         margin: 0 -50px;
+      }
+   }
+}
